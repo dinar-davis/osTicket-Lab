@@ -1,3 +1,5 @@
+![osTicket Logo](images/osTicket_logo.png)
+
 # osTicket Installation on Windows 10 Azure VM
 
 ## Overview
@@ -25,7 +27,7 @@ Follow these step-by-step instructions to install osTicket on your Windows 10 VM
 
 Access the VM via Remote Desktop after it's created.
 
-![Azure VM Creation](screenshot1.png)
+![Azure VM Creation](images/osticket-1.png)
 
 ---
 
