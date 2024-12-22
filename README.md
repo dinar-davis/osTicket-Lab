@@ -42,7 +42,7 @@ Access the VM via Remote Desktop after it's created.
 - Open **Windows Features** (`Control Panel > Programs > Turn Windows Features on or off`).
 - Enable **Internet Information Services (IIS)** > **World Wide Web Services** > **Application Development Features** > **CGI**.
 
-![IIS Installation](screenshot2.png)
+![IIS Installation](images/osticket-2.png)
 
 ---
 
@@ -73,7 +73,7 @@ Access the VM via Remote Desktop after it's created.
 - Run the `mysql-5.5.62-win32.msi` file and choose **Typical Setup**.
 - During installation, set up the MySQL root user with the password `root`.
 
-![MySQL Installation](screenshot3.png)
+![MySQL Installation](images/osticket-3.png)
 
 ---
 
@@ -88,7 +88,8 @@ Access the VM via Remote Desktop after it's created.
 
 - Stop and start IIS via **IIS Manager** for the changes to take effect.
 
-![IIS Manager - PHP Registration](screenshot4.png)
+![IIS Manager - PHP Registration](images/osticket-4.png)
+![IIS Manager - PHP Registration](images/osticket-5.png)
 
 ---
 
@@ -141,6 +142,8 @@ Access the VM via Remote Desktop after it's created.
 - Open HeidiSQL, create a new session with `root` as both the username and password, and connect to the session.
 - Create a new database named `osTicket`.
 
+![HeidiSQL Create Database](images/osticket-6.png)
+
 #### 5. Connect osTicket to MySQL
 
 - In the osTicket setup wizard, enter: 
@@ -160,6 +163,8 @@ After installation completes successfully, access your admin panel via:
 For end-users, access the helpdesk portal at:
 
 - **End-User URL**: `http://localhost/osTicket/`
+
+![osTicket Successful Intallation Page](images/osticket-7.png)
 
 ---
 
@@ -190,13 +195,17 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 - Access it by visiting:  
   **Admin Login URL**: `http://localhost/osTicket/scp/login.php`  
   **Admin Username**: your admin credentials  
-  **Admin Password**: your admin password  
+  **Admin Password**: your admin password
+
+![osTicket Admin Login Panel](images/osticket-13.png)
 
 ### Agent Panel
 - The **Agent Panel** is where support agents can view and manage tickets.
 - Access it by visiting:  
   **End-User URL**: `http://localhost/osTicket/`  
   This panel provides agents with a streamlined interface for responding to support requests and managing tickets.
+
+![osTicket Agent Login Panel](images/osticket-13.png)
 
 ---
 
@@ -210,6 +219,8 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 4. Name the role **Supreme Admin** (or another role as needed).
 5. Assign permissions as needed (you can allow full access or restricted access based on role).
 6. Click **Save Changes**.
+
+![Configure Agent Roles](images/osticket-8.png)
 
 ### 2. Configure Departments for Ticket Visibility
 
@@ -241,6 +252,10 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
    - **Jane** – Department: SysAdmins  
    - **John** – Department: Support  
 3. Click **Save Changes**.
+
+![Add New Agent](images/osticket-9.png)
+![Add New Agent](images/osticket-10.png)
+![Add New Agent](images/osticket-11.png)
 
 ### 6. Configure Users (Customers)
 
@@ -276,6 +291,8 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
    - **Password Reset**  
    - **Other**  
 3. Click **Save Changes**.
+
+![Congfigure Ticket Help Topic Categories](images/osticket-12.png)
 
 ---
 
