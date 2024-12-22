@@ -205,7 +205,7 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
   **End-User URL**: `http://localhost/osTicket/`  
   This panel provides agents with a streamlined interface for responding to support requests and managing tickets.
 
-![osTicket Agent Login Panel](images/osticket-13.png)
+![osTicket Agent Login Panel](images/osticket-14.png)
 
 ---
 
