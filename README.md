@@ -205,7 +205,7 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 
 ---
 
-## Step-by-Step Configuration Guide
+## Ticketing Configuration Guide
 
 ## 1. Configure Roles for Agents (Grouping Permissions)
 
