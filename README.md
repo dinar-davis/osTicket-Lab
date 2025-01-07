@@ -294,16 +294,4 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 
 ![Congfigure Ticket Help Topic Categories](images/osticket-12.png)
 
----
 
-## Additional Tips
-
-- **Test the Configuration**: After configuring roles, agents, and departments, create a test ticket from the **End User URL** to ensure everything is working as expected.
-- **Review Permissions Regularly**: Ensure that agents and users have the appropriate level of access to prevent unauthorized changes to the system.
-- **Monitor Ticket Flow**: Ensure that tickets are being created, assigned, and responded to correctly. Regularly check the **Agent Panel** to verify ticket progress.
-
----
-
-## Conclusion
-
-This configuration guide provides a foundational setup for managing and customizing your **osTicket** system to streamline ticket handling, manage agents, and ensure timely responses based on predefined SLAs.
