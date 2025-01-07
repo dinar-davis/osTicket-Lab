@@ -19,7 +19,7 @@ Before starting this setup, make sure you have the following:
 
 Follow these step-by-step instructions to install osTicket on your Windows 10 VM:
 
-### 1. Create a Windows 10 Virtual Machine in Azure
+## 1. Create a Windows 10 Virtual Machine in Azure
 
 - **VM Name**: osticket-vm  
 - **Username**: labuser  
@@ -31,7 +31,7 @@ Access the VM via Remote Desktop after it's created.
 
 ---
 
-### 2. Prepare the Virtual Machine for osTicket Installation
+## 2. Prepare the Virtual Machine for osTicket Installation
 
 #### 1. Download osTicket Installation Files
 
@@ -46,7 +46,7 @@ Access the VM via Remote Desktop after it's created.
 
 ---
 
-### 3. Install Dependencies
+## 3. Install Dependencies
 
 #### 1. PHP Manager for IIS
 
@@ -77,7 +77,7 @@ Access the VM via Remote Desktop after it's created.
 
 ---
 
-### 4. Configure IIS for PHP
+## 4. Configure IIS for PHP
 
 #### 1. Register PHP with IIS
 
@@ -93,7 +93,7 @@ Access the VM via Remote Desktop after it's created.
 
 ---
 
-### 5. Install osTicket
+## 5. Install osTicket
 
 #### 1. Copy osTicket Files
 
@@ -118,7 +118,7 @@ Access the VM via Remote Desktop after it's created.
 
 ---
 
-### 6. Complete osTicket Configuration
+## 6. Complete osTicket Configuration
 
 #### 1. Rename Configuration File
 
@@ -154,7 +154,7 @@ Access the VM via Remote Desktop after it's created.
 
 ---
 
-### 7. Access Your osTicket System
+## 7. Access Your osTicket System
 
 After installation completes successfully, access your admin panel via:
 
@@ -168,7 +168,7 @@ For end-users, access the helpdesk portal at:
 
 ---
 
-### 8. Clean Up
+## 8. Clean Up
 
 #### 1. Delete Setup Folder
 
@@ -177,10 +177,6 @@ For end-users, access the helpdesk portal at:
 #### 2. Set Permissions to Read-Only
 
 - Set the `ost-config.php` file to **Read-only** to prevent any unauthorized modifications.
-
----
-
-## Conclusion
 
 You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! This setup will provide a fully functional helpdesk system that can be used for managing support tickets.
 
@@ -211,7 +207,7 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 
 ## Step-by-Step Configuration Guide
 
-### 1. Configure Roles for Agents (Grouping Permissions)
+## 1. Configure Roles for Agents (Grouping Permissions)
 
 1. Log into the **Admin Panel**.
 2. Navigate to **Agents** > **Roles**.
@@ -222,7 +218,7 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 
 ![Configure Agent Roles](images/osticket-8.png)
 
-### 2. Configure Departments for Ticket Visibility
+## 2. Configure Departments for Ticket Visibility
 
 1. In the **Admin Panel**, go to **Agents** > **Departments**.
 2. Click **Add New**.
@@ -230,7 +226,7 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 4. Set ticket visibility rules (Who can view tickets assigned to this department).
 5. Click **Save Changes**.
 
-### 3. Configure Teams (Pulling Agents from Different Departments)
+## 3. Configure Teams (Pulling Agents from Different Departments)
 
 1. Navigate to **Agents** > **Teams**.
 2. Click **Add New**.
@@ -238,14 +234,14 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 4. Select agents from different departments to be part of the team.
 5. Click **Save Changes**.
 
-### 4. Allow Anyone to Create Tickets (User Registration)
+## 4. Allow Anyone to Create Tickets (User Registration)
 
 1. In the **Admin Panel**, go to **Settings** > **User Settings**.
 2. Uncheck **Unregistered users can create tickets** (this will require users to log in before submitting a ticket).
 3. Check **Registration Required** (users will need to create an account to submit tickets).
 4. Click **Save Changes**.
 
-### 5. Configure Agents (Support Staff)
+## 5. Configure Agents (Support Staff)
 
 1. In the **Admin Panel**, navigate to **Agents** > **Add New**.
 2. Add the following agents:  
@@ -257,7 +253,7 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
 ![Add New Agent](images/osticket-10.png)
 ![Add New Agent](images/osticket-11.png)
 
-### 6. Configure Users (Customers)
+## 6. Configure Users (Customers)
 
 1. Log into the **Agent Panel**.
 2. Navigate to **Users** > **Add New**.
@@ -266,7 +262,7 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
    - **Ken**  
 4. Click **Save Changes**.
 
-### 7. Configure SLA (Service Level Agreements)
+## 7. Configure SLA (Service Level Agreements)
 
 1. In the **Admin Panel**, go to **Manage** > **SLA**.
 2. Add the following SLAs:  
@@ -281,7 +277,7 @@ You’ve now installed and configured **osTicket** on a Windows 10 VM in Azure! 
      - Schedule: Business Hours (e.g., 9 AM - 5 PM, Mon-Fri)  
 3. Click **Save Changes**.
 
-### 8. Configure Help Topics for Ticket Creation
+## 8. Configure Help Topics for Ticket Creation
 
 1. In the **Admin Panel**, go to **Manage** > **Help Topics**.
 2. Add the following help topics:  
