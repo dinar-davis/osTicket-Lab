@@ -1,10 +1,34 @@
 ![osTicket Logo](images/osTicket_logo.png)
 
-# osTicket Installation on Windows 10 Azure VM
+# osTicket Help Desk Deployment
 
-## Overview
+Deployed and configured a fully functional **help desk ticketing system** using osTicket within a Windows 10 Azure VM to simulate a real-world IT support environment. This lab demonstrates hands-on experience with ticket lifecycle management, user roles, service workflows, and system configuration across a web-based support platform.
 
-This project demonstrates how to install and configure **osTicket**, an open-source support ticket system, on a Windows 10 virtual machine (VM) in Azure. The lab covers the installation of required dependencies such as IIS, PHP, MySQL, and **osTicket** itself, and it concludes with setting up the helpdesk system for both admins and end-users.
+## Key Skills Demonstrated
+
+- Help desk ticketing system setup and administration
+- Ticket lifecycle management including intake, triage, escalation, and resolution
+- User roles, departments, and access control
+- SLA configuration and ticket prioritization
+- Troubleshooting system setup and dependency issues using IIS, PHP, and MySQL
+- Supporting both admin and end-user workflows
+
+## What I Did
+
+- Deployed a Windows 10 virtual machine in Azure and configured a web server environment using IIS
+- Installed and configured required dependencies including PHP and MySQL to support the application
+- Installed and secured the osTicket platform, including configuration file permissions and system access
+- Created and configured support roles, departments, and teams to simulate a structured IT support organization
+- Defined service level agreements (SLAs) and help topics to reflect real-world ticket prioritization and routing
+- Tested ticket workflows from end-user submission through agent resolution
+- Configured both admin and agent panels to manage users, tickets, and system settings
+
+## Key Takeaways
+
+- Effective help desk systems rely on clear ticket routing, role definition, and prioritization workflows
+- Proper system configuration using IIS, PHP, and MySQL is critical for application stability
+- Structured SLAs and help topics improve response time and reduce ticket confusion
+- Managing both user and admin perspectives is essential for full support lifecycle understanding
 
 ## Prerequisites
 
